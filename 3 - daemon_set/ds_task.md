@@ -4,11 +4,11 @@
 __Task 4, step 5: Once you apply the DaemonSet, what happens and why?__
 
 ```
-enter answer here
+a DaemonSet is created named ngixn-ds with a single container running the nginxstable-alpine.
 ```
 
 __Task 4, step 7: What happened when you labeled the node and why?__
 
 ```
-enter answer here
+kubectl label node minikube nodeType=health
 ```
